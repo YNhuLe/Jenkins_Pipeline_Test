@@ -15,3 +15,7 @@ def test_multiply():
 
 def test_divide():
     assert divide(10, 5) == 2
+
+
+def test_cal():
+    assert cal(12,3,0) == 5
