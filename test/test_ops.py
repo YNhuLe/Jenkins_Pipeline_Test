@@ -18,4 +18,4 @@ def test_divide():
 
 
 def test_cal():
-    assert cal(12,3,0) == 5
+    assert cal(12,3,3) == 5
