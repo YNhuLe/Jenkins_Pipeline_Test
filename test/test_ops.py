@@ -22,6 +22,7 @@ def test_divide():
 
 
 def test_cal():
+
     result = OPS.cal(12, 3, 3)
     assert result == 5
 
@@ -29,3 +30,4 @@ def test_cal():
 def test_percentage():
     result = OPS.percentage(2, 10)
     assert result == 20
+
