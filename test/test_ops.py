@@ -1,21 +1,33 @@
-from src.ops import *
+from src.ops import OPS
 
 
 def test_add():
-    assert add(2, 3) == 5
+    result = OPS.add(2, 3)
+    assert result == 5
 
 
 def test_subtract():
-    assert subtract(2, 3) == -1
+    result = OPS.subtract(2, 3)
+    assert result == -1
 
 
 def test_multiply():
-    assert multiply(2, 3) == 6
+    result = OPS.multiply(2, 3)
+    assert result == 6
 
 
 def test_divide():
-    assert divide(10, 5) == 2
+    result = OPS.divide(10, 5)
+    assert result == 2
 
 
 def test_cal():
-    assert cal(12,3,3) == 5
+
+    result = OPS.cal(12, 3, 3)
+    assert result == 5
+
+
+def test_percentage():
+    result = OPS.percentage(2, 10)
+    assert result == 20
+
