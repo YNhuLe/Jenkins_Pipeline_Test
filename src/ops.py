@@ -1,18 +1,24 @@
-def add(x, y):
-    return x + y
+class OPS:
+    @staticmethod
+    def add(x, y):
+        return x + y
 
+    @staticmethod
+    def subtract(x, y):
+        return x - y
 
-def subtract(x, y):
-    return x - y
+    @staticmethod
+    def multiply(x, y):
+        return x * y
 
+    @staticmethod
+    def divide(x, y):
+        return x / y
 
-def multiply(x, y):
-    return x * y
+    @staticmethod
+    def cal(x, y, z):
+        return (x + y) / z
 
-
-def divide(x, y):
-    return x / y
-
-
-def cal(x, y, z):
-    return (x + y) / z
+    @staticmethod
+    def percentage(x, y):
+        return (x / y) * 100
