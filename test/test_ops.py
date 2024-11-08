@@ -31,3 +31,6 @@ def test_percentage():
     result = OPS.percentage(2, 10)
     assert result == 20
 
+def test_plus():
+    result = OPS.plus(2,3)
+    assert result == 7
