@@ -22,3 +22,7 @@ class OPS:
     @staticmethod
     def percentage(x, y):
         return (x / y) * 100
+
+    @staticmethod
+    def plus(x, y):
+        return (x + y + 2)
